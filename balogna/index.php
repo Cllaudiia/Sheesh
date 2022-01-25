@@ -5,10 +5,7 @@ require "functions.php";
 
 $data = $database->select("drank", "*");
 var_dump($data);
-$data2 = $database->select("bon","*",[
-    $tafelnummer => "tafelNr"
-]);
-echo $tafelnummer;
+
 
 ?>
     <body>
